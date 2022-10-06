@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="chat.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="bodyCard">
+        <div id="info">
+            <h2>Hello, <span id="loggedInuName"></span></h2>
+            <h4><button>Logout</button></h4>
+        </div>
+        <div id="main">
+            <div id="nav">
+                <h2>Friends :</h2>
+                <br>
+                <hr>
+                <div id="list">
+                    <ul id="allUsersArea">
+                    </ul>
+                </div>
+            </div>
+            <div id="chatArea">
+                <div id="chatName">
+                    <h2>
+                        <img src="../images/download.png" alt="" id="picture">
+                        <span id="userNameonWindow"></span>
+                    </h2>
+                    <br>
+                    <hr>
+                    <div id="messagesCont">
+                        <ul style="width: 100%;height: max-content;border: 1px solid black;" id="msgcontallmsg">
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div id="messageArea">
+                    <input type="text" id="msgArea" placeholder="  Type Your Message ...." > <button
+                        id="sendbutton">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="chap.js" type="module"></script>
+
+</html>

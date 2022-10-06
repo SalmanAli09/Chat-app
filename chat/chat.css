@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#bodyCard {
+    margin-top: 30px;
+}
+
+#main {
+    width: 90%;
+    height: 630px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#nav {
+    width: 25%;
+    padding: 10px;
+}
+
+#list {
+    margin-top: 20px;
+    height: 530px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#list ul li {
+    list-style-type: none;
+    border: 1px solid #142850;
+    margin-top: 10px;
+    width: 93%;
+    padding: 10px;
+}
+
+#list ul li button {
+    float: right;
+    height: 25px;
+    width: 80px;
+    background: #27496D;
+    border: none;
+    color: white;
+    border-radius: 3px;
+
+}
+
+#chatArea {
+    width: 75%;
+    padding: 5px;
+    vertical-align: middle;
+    position: relative;
+    border-left: 1px solid black;
+}
+
+#chatArea #chatName h2 span {
+    font-size: 24px;
+    vertical-align: middle;
+    padding-left: 6px;
+
+}
+
+#chatArea #chatName h2 {
+    padding-left: 6px;
+    padding-top: 6px;
+}
+#messagesCont{
+    width: 100%;
+    height: 485px;
+}
+#messagesCont ul {
+    height: max-content;
+}
+#messagesCont ul li{
+    list-style-type: none;
+}
+#receiver{
+    width: 300px;
+    height: max-content;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+#sender{
+    text-align: justify;
+    width: 300px;
+    height: max-content;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background: #27496D;
+    float: left;
+    color: white;
+}
+
+#info {
+    width: 90%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 0px auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info h2 {
+    margin-left: 10px;
+}
+
+#info  button{
+    margin-right: 10px;
+    background: #27496D;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+#picture {
+    width: 35px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+
+}
+
+/* Message area */
+
+#messageArea {
+    position: absolute;
+    bottom: 5px;
+    width: 99%;
+    border: none;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#messageArea input {
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    border-color: #142850;
+    outline: #142850;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#sendbutton {
+    width: 8%;
+    height: 43px;
+   background-color: #142850;
+   border: none;
+   color: white;
+   font-weight: lighter;
+   font-size: 16px;
+   border-radius: 3px;
+}
+
+#allUsersArea li{
+    cursor: pointer;
+}
